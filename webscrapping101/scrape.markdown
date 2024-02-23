@@ -36,9 +36,9 @@ In the process of web scraping, we primarily deal with HTTP requests and respons
 An HTTP request is composed of three main parts:
 
 1. \*Method: one of several types that define the kind of action to be performed. eg.
-    - GET: This method requests a document.
-    - POST: This method requests a document by sending additional data.
-    - HEAD: This method requests meta information about a document, such as its last update time.
+    - GET: requests a resource.
+    - POST: requests a resource by sending additional data.
+    - HEAD: requests meta information about a resource, such as its last update time.
 2. Headers: provide metadata about our request.
 3. Location: specifies the resource we aim to retrieve. They are defined by URL (Uniform Resource Locator)
 
@@ -49,11 +49,11 @@ An HTTP request is composed of three main parts:
 Some other methods that are used extensively in web communications are PATCH, PUT, and DELETE,
 Though these methods are less common in web scraping
 
-PATCH: This method updates an existing document.
+PATCH: updates an existing resource.
 
-PUT: This method either creates a new document or updates an existing one.
+PUT: either creates a new resource or updates an existing one.
 
-DELETE: This method deletes a document.
+DELETE: deletes a resource.
 
 ### HTTP Responses
 
@@ -143,13 +143,14 @@ Now that we have covered the basic background needed for web scraping, let's act
 Now lets use Python to do some simple web scraping on Umich eecs course page https://bulletin.engin.umich.edu/courses/eecs/
 
 ![eecs](./image/umich.png)
+
 For the list of EECS courses, we want to put each courses' course code, name, credit, and ATLAS link into a csv file. We will also include all the prereq descriptions in a final column as note to that course. We will leave the course description out, as they are in long paragraphs and does not matter in our case of learning to web scrape.
 
 We first import the httpx library, then we specify the request headers, send a get request to the EECS webpage. The returned object is stored in response, we then fetch the text attribute of the returned object and print it out.
 
 The Accept header specifies what information we are expected to receive. In our case, we have configured it to mimic the usual browser default of Chrome, which is a common standard among web scraping.
 
-The User-Agent header holds information about the client's identity. It tells the server what type of client is making the request, a laptop web browser? a cellphone?... It is in the format of Browser Name, Operating System, Some version numbers. The servers can check the header and make a decision on whether or not to serve the content. We want to conceal ourselves with our scraping activity, so we want the header to hold information that present ourselves as we are a browser making a normal browser request. 
+The User-Agent header holds information about the client's identity. It tells the server what type of client is making the request, a laptop web browser? a cellphone?... It is in the format of Browser Name, Operating System, Some version numbers. The servers can check the header and make a decision on whether or not to serve the content. We want to conceal ourselves with our scraping activity, so we want the header to hold information that present ourselves as we are a browser making a normal browser request.
 
 A documentation of all user-agent strings for chrome on different platforms: https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome
 
@@ -170,6 +171,143 @@ Running the code above, we get the following output. (Note that all the code are
 ![out1](./image/out1.png)
 
 The output is the html content of the webpage
+
+We can analyze this returned HTML directly, or even better, use developer tools provided by browser to analyze the website's components, layout, and structures.
+
+Open up "Inspect Element" in Chrome. (This can be done by clicking on "View" -> "Developer" -> "Inspect Element")
+
+![out2](./image/umich2.png)
+
+Through some examination, we can see that each of the course information are enclosed in a "\<p>" tag under "\<div class=entry-content>". The course code and name are in the "\<strong>" tag. The course credit and prerequisite are in "\<em>", and finally, the atlas link is embedded in a "\<a href>" hyperlink tag. 
+
+Here is a more zoomed in view. 
+![](./image/zoom_in_course.png)
+
+We want to parse all of the informations enclosed in tags listed above for every course under the p tag. We will do this using Beautifulsoup. 
+
+and here is a zoomed out view of all the course blocks. 
+![](./image/umich3.png)
+
+
+First take a look of selecting all the p tags under "\<div class="entry-content">" and printing their cotent out in full. 
+
+```python
+from bs4 import BeautifulSoup
+
+parser = BeautifulSoup(response, 'html.parser')
+
+div = parser.find('div', class_= "entry-content")
+
+p_tags = div.find_all('p')[1:] # through inspection the first tag is irrelevant.
+
+for p in p_tags:
+    print(p.get_text())
+```
+
+![](./image/p_clean.png)
+
+A raw look
+
+
+```python
+for p in p_tags:
+    print(p)
+```
+
+![](./image/p_raw.png)
+
+
+As described in our guide, we only need the informations under the "strong", "em", and "a" tag. For "a" tag, we need its "href" attribute for a web url (instead of the literal words "CourseProfile (ATLAS)" )
+
+```python 
+course = []
+prereq = []
+link = []
+
+for p in p_tags:
+    strong, em, a = p.find('strong'), p.find('em'),  p.find('a')  
+    if strong is not None: course.append(strong.getText())
+    if em is not None: prereq.append(em.getText())
+    if a is not None: link.append(a['href']) # Get the href attribute, not literal text
+
+print(course)
+print(prereq)
+print(link)
+
+```
+![](./image/p_2.png)
+
+Some of the courses have the character \xa0, a variant of a standard space chraracter that prevents an automatic link break at its position. We need to strip it. 
+
+```python
+course = [c .replace('\xa0', '') for c in course]
+print(course)
+```
+
+![](./image/removed_space.png)
+
+## Clean and store information.
+Another big part of web scraping other than the act of scraping itself is cleaning, processing, and storing the collected informations. Now, lets take a look of how to store the data into a csv file in a schema which we discussed previously.
+
+Use regex to process the data.
+1. Seperate course code and course name.
+2. Extract credit information
+3. Put course code, course name, credit information, link, and prereq to seperate attributes
+
+
+| CourseCode    | CourseName |    Credit       | Link  | Note     |
+|---------|-----|---------------|-------------|-------------|
+
+
+```python
+import re
+data = []
+for c, p, l in zip(course, prereq, link):
+    data_entry = {}
+    course_split = c.split(".", 1) # Split at first occurance of a period
+    if len(course_split) != 2: continue # Skip instances where there is bad course format. 
+    data_entry["CourseCode"] = course_split[0]
+    data_entry["CourseName"]= course_split[1].lstrip(" ") # Remove leading space.
+
+    credit = re.findall(r'\((\d+)\s+credits\)', p)
+    """
+    the regular expression \((\d+)\s+credits\) matches any sequence of digits (\d+)
+    that are directly after a parenthesis and followed by one or more spaces (\s+)
+    and the word "credits". The parentheses around \d+ create a group that 
+    findall() returns as a list.
+    """
+    data_entry["Credit"] = credit
+    data_entry["Link"] = l
+    data_entry["Note"] = p
+    data.append(data_entry)
+
+for entry in data:
+    print(entry)
+```
+
+![](./image/result.png)
+
+Now, lets put our data into a CSV file. 
+
+
+```python
+import csv
+
+fields = ["CourseCode", "CourseName", "Credit", "Link", "Note"]
+
+# Open (or create) a CSV file with write permissions ('w')
+with open('eecs_course.csv', 'w', newline='\n') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=fields)
+    writer.writeheader()
+    for entry in data:
+        writer.writerow(entry)
+```
+
+Not we have a great CSV file ready to go 
+
+![](./image/csv.png)
+
+
 ## Attribution
 
 Generative AI, Scrapfly.io

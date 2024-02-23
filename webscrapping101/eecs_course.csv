@@ -1,0 +1,232 @@
+CourseCode,CourseName,Credit,Link,Note
+EECS 110,Discover Computer Science,['2'],https://atlas.ai.umich.edu/course/EECS%20110/,Enforced Prerequisite: None. (2 credits).
+EECS 180,Exam/Transfer Introductory Computer Programming Credit,[],https://atlas.ai.umich.edu/course/EECS%20180/,Cannot receive credit if student has credit for EECS 183 or ENGR 101 or ENGR 151 (3-4 credits).
+EECS 183,Elementary Programming Concepts,['4'],https://atlas.ai.umich.edu/course/EECS%20183/,"Prerequisite: None. (Credit for only one: EECS 180, EECS 183, ENGR 101 or ENGR 151) (4 credits)"
+EECS 198,Special Topics,[],https://atlas.ai.umich.edu/course/EECS%20198/,Advisory Prerequisite: Permission of instructor. (1-4 credits)
+EECS 200,Electrical Engineering Systems Design I,[],https://atlas.ai.umich.edu/course/EECS%20200/,Advisory Prerequisite: ENGR 100 or ENGR 101 or ENGR 151 or EECS 180 or EECS 280. Preceded or accompanied by: EECS 215 Minimum grade requirement of “C” for advised prerequisites. (2
+EECS 201,Computer Science Pragmatics,[],https://atlas.ai.umich.edu/course/EECS%20201/,Prerequisite: EECS 180 or EECS 183 or ENGR 101 or ENGR 151 or ROB 102 or preceded or accompanied by (EECS 280 or EECS 281). Minimum grade requirement of “C” for enforced prerequisites. (1 credit)
+EECS 203,Discrete Mathematics,['4'],https://atlas.ai.umich.edu/course/EECS%20203/,"Enforced Prerequisite: (MATH 115 or 116 or 119 or 120 or 121 or 156 or 175 or 176 or 185 or 186 or 214 or 215 or 216 or 217 or 255 or 256 or 285 or 286 or 295 or 296 or 417 or 419). Minimum grade requirement of “C” for enforced prerequisites.  (4 credits) [Fewer than two previous elections of EECS 203 (incl. grades of W.I, VI, and AUD)]"
+EECS 215,Introduction to Electronic Circuits,['4'],https://atlas.ai.umich.edu/course/EECS%20215/,"Prerequisite: (MATH 116 or 121 or 156) and (ENGR 101 or 151 or EECS 180 or 183 or preceded or accompanied by EECS 280) and (preceded or accompanied by: PHYSICS 240 or 260); (C or better, No OP/F) Cannot receive credit for both EECS 314 and EECS 215. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 216,Introduction to Signals and Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20216/,Prerequisite: EECS 215 or EECS 314 or BIOMEDE 211. Advisory Prerequisite: Preceded or accompanied by MATH 216. (4 credits).
+EECS 230,Electromagnetics I,['4'],https://atlas.ai.umich.edu/course/EECS%20230/,"Prerequisite: (MATH 215 and PHYSICS 240; C or better, No OP/F) or (Co-requisite: EECS 215; C or better, No OP/F). (4 credits)."
+EECS 250 (NAVSCI 202),Electronic Sensing Systems,['3'],https://atlas.ai.umich.edu/course/EECS%20250/,Prerequisite: Preceded or accompanied by EECS 230 or PHYSICS 240. (3 credits). 
+EECS 270,Introduction to Logic Design,[],https://atlas.ai.umich.edu/course/EECS%20270/,Prerequisite: 
+EECS 280,Programming and Introductory Data Structures,['4'],https://atlas.ai.umich.edu/course/EECS%20280/,"Prerequisite: ENGR 101 or ENGR 151 or EECS 180 or EECS 183 or ROB 102. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) [Fewer than two previous elections of EECS 280 (incl. grades of W.I, VI, and AUD)]"
+EECS 281,Data Structures and Algorithms,['4'],https://atlas.ai.umich.edu/course/EECS%20281/,"Prerequisite: (EECS 203 or Math 465 or Math 565) and EECS 280. Minimum grade requirement of “C” for enforced prerequisites. Advisory Prerequisite: Minimum GPA of 2.5 over the best grade for each enforced prerequisite. (4 credits) [(EECS 203 or MATH 465 or 565) and EECS 280; (C or better, NO OP/F)] and [Fewer than two previous elections of EECS 281 (incl. grades of W, I, VI, and AUD)]"
+EECS 285,Practical Programming in Java,['2'],https://atlas.ai.umich.edu/course/EECS%20285/,Prerequisite: EECS 280. Minimum grade requirement of “C” for enforced prerequisites. (2 credits)
+EECS 298,Special Topics,[],https://atlas.ai.umich.edu/course/EECS%20298/,Advisory Prerequisite: Permission of instructor. (1-4 credits)
+EECS 300,Electrical Engineering Systems Design II,['3'],https://atlas.ai.umich.edu/course/EECS%20300/,"Prerequisite: EECS 200, at least 3 of 4 (215, 216, 230, 280), Co-requisite EECS: 4th of 4 (215, 216, 230, 280) Minimum grade requirement of “C” for enforced prerequisites. (3 credits)"
+EECS 301,Probabilistic Methods in Engineering,['4'],https://atlas.ai.umich.edu/course/EECS%20301/,Advisory Prerequisite: Preceded or accompanied by EECS 216. (4 credits)
+EECS 311,Analog Circuits,['4'],https://atlas.ai.umich.edu/course/EECS%20311/,Prerequisite: EECS 215 and EECS 216. (4 credits)
+EECS 312,Digital Integrated Circuits,['4'],https://atlas.ai.umich.edu/course/EECS%20312/,Prerequisite: EECS 215 and Math 216. Minimum grade requirement of “C” for enforced prerequisites. (4 credits).
+EECS 314,"Electrical Circuits, Systems, and Applications",['4'],https://atlas.ai.umich.edu/course/EECS%20314/,"Prerequisite: MATH 214 or MATH 216, PHYSICS 240. Credit for only one: EECS 215, or EECS 314. Not open to CE or EE students. (4 credits)."
+EECS 320,Introduction to Semiconductor Devices,['4'],https://atlas.ai.umich.edu/course/EECS%20320/,Prerequisite: EECS 215 and PHYSICS 240 or 260. (4 credits)
+EECS 330,Introduction to Antennas and Wireless Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20330/,Prerequisite: EECS 230. (4 credits)
+EECS 334,Principles of Optics,['4'],https://atlas.ai.umich.edu/course/EECS%20334/,Prerequisite: PHYSICS 240. A student can receive credit for only one: EECS 334 or PHYSICS 402. (4 credits)
+EECS 351,Introduction to Digital Signal Processing,['4'],https://atlas.ai.umich.edu/course/EECS%20351/,Prerequisite: EECS 216. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) 
+EECS 367 (ROB 380),Introduction to Autonomous Robotics,[],https://atlas.ai.umich.edu/course/EECS%20367/,"Prerequisite: EECS 281 and (MATH 214 or 217 or 296 or 417 or 419, or ROB 101; (C or better; No OP/F). Enrollment in one minor elective allowed for Computer Science Minors."
+EECS 370,Introduction to Computer Organization,['4'],https://atlas.ai.umich.edu/course/EECS%20370/,Prerequisite: (EECS 203 or Math 465 or Math 565 or EECS 270) and EECS 280. (4 credits)
+EECS 373,Introduction to Embedded System Design,['4'],https://atlas.ai.umich.edu/course/EECS%20373/,Prerequisite: EECS 270 and EECS 370 and junior standing or higher. Minimum grade requirement of “C” for enforced prerequisites. (4 credits).
+EECS 376,Foundations of Computer Science,['4'],https://atlas.ai.umich.edu/course/EECS%20376/,Prerequisite: EECS 280 and (EECS 203 or Math 465 or Math 565). Minimum grade requirement of “C” for enforced prerequisites. (4 credits).
+EECS 388,Introduction to Computer Security,['4'],https://atlas.ai.umich.edu/course/EECS%20388/,"Advisory Prerequisite: EECS 201 and 370. Enforced Prerequisite: EECS 281; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 390,Programming Paradigms,[],https://atlas.ai.umich.edu/course/EECS%20390/,"Prerequisite: EECS 281; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors."
+EECS 398,Special Topics,[],https://atlas.ai.umich.edu/course/EECS%20398/,Advisory Prerequisite: permission of instructor. (1-4 credits)
+EECS 399,Directed Study,[],https://atlas.ai.umich.edu/course/EECS%20399/,"Prerequisite: Sophomore or Junior Standing, and Permission of Instructor"
+EECS 402,Computer Programming For Scientists and Engineers,[],https://atlas.ai.umich.edu/course/EECS%20402/,Prerequisite: Graduate standing.
+EECS 403,Graduate Foundations of Data Structures and Algorithms,['4'],https://atlas.ai.umich.edu/course/EECS%20403/,Prerequisite: Graduate Standing and [EECS 402 and (EECS 203 or MATH 403 or 465 or 565); (C or better; No OP/F)] Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 406 (ENGR 406),High-Tech Entrepreneurship,['4'],https://atlas.ai.umich.edu/course/EECS%20406/,Prerequisite: None. (4 credits)
+EECS 409,Data Science Seminar,[],https://atlas.ai.umich.edu/course/EECS%20409/,Prerequisite: None. (1 credit)
+EECS 411,Microwave Circuits I,['4'],https://atlas.ai.umich.edu/course/EECS%20411/,"Prerequisite: EECS 311 or 330, or graduate standing. (4 credits)"
+EECS 413,Monolithic Amplifier Circuits,['4'],https://atlas.ai.umich.edu/course/EECS%20413/,Prerequisite: EECS 311 and EECS 320 or graduate standing. (4 credits)
+EECS 414,Introduction to MEMS,['4'],https://atlas.ai.umich.edu/course/EECS%20414/,Prerequisite: MATH 215 and MATH 216 and PHYSICS 240 or graduate standing. (4 credits)
+EECS 417 (BIOMEDE 417),Electrical Biophysics,['4'],https://atlas.ai.umich.edu/course/EECS%20417/,Prerequisite: EECS 215 and 216 or graduate standing. (4 credits)
+EECS 418,Power Electronics,['4'],https://atlas.ai.umich.edu/course/EECS%20418/,Prerequisite: (EECS 215 and EECS 216 and preceded or accompanied by EECS 320) or graduate standing. (4 credits)
+EECS 419,Electric Machinery and Drives,['4'],https://atlas.ai.umich.edu/course/EECS%20419/,Prerequisite: ((Phys 240 or 260) and EECS 215 and EECS 216) or graduate standing. (4 credits) 
+EECS 421,Properties of Transistors,['4'],https://atlas.ai.umich.edu/course/EECS%20421/,Prerequisite: EECS 320 or graduate standing. (4 credits)
+EECS 423,Micro/Nano Device Fabrication and Characterization ,['4'],https://atlas.ai.umich.edu/course/EECS%20423/,Prerequisite: Senior undergraduate or graduate standing. (4 credits)
+EECS 425,Integrated Microsystems Laboratory,['4'],https://atlas.ai.umich.edu/course/EECS%20425/,Prerequisite: EECS 311 or EECS 312 or EECS 414 or graduate standing. (4 credits)
+EECS 427,VLSI Design I,['4'],https://atlas.ai.umich.edu/course/EECS%20427/,Prerequisite: (EECS 270 and EECS 312) or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 428,Introduction to Quantum Nanotechnology,['3'],https://atlas.ai.umich.edu/course/EECS%20428/,"Advisory Prerequisite: PHYSICS 240, MATH 215, MATH 216. (3 credits)"
+EECS 429,Semiconductor Optoelectronic Devices,['4'],https://atlas.ai.umich.edu/course/EECS%20429/,Prerequisite: EECS 320 or graduate standing. (4 credits) 
+EECS 430 (SPACE 431)(CLIMATE 431),Wireless Link Design,['4'],https://atlas.ai.umich.edu/course/EECS%20430/,Prerequisite: EECS 330 (“C” or better) or graduate standing. (4 credits)
+EECS 434,Principles of Photonics,['4'],https://atlas.ai.umich.edu/course/EECS%20434/,Prerequisite: EECS 330 or EECS 334 or permission of instructor or graduate standing. (4 credits)
+EECS 435,Fourier Optics,['3'],https://atlas.ai.umich.edu/course/EECS%20435/,Prerequisite: EECS 216. (3 credits)
+EECS 438,Advanced Lasers and Optics Laboratory,['4'],https://atlas.ai.umich.edu/course/EECS%20438/,Prerequisite: EECS 334 or EECS 434 or graduate standing. (4 credits)
+EECS 440,Extended Reality for Social Impact,['4'],https://atlas.ai.umich.edu/course/EECS%20440/,"Advisory Prerequisite: None. Enforced Prerequisite: EECS 281; (C or better, No OP/F). Minimum grade requirement of “C” for enforced prerequisite. (4 credits) "
+EECS 441,Mobile App Development for Entrepreneurs,['4'],https://atlas.ai.umich.edu/course/EECS%20441/,"Prerequisite: Senior standing, EECS 281, and at least four credit hours of Upper Level Electives from list in either Computer Science or Computer Engineering. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 442,Computer Vision,['4'],https://atlas.ai.umich.edu/course/EECS%20442/,"Prerequisite: [(EECS 281 and (MATH 214 or 217 or 296 or 417 or 419, or ROB 101)); (C or better, No OP/F)] or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) (Credit cannot be obtained for both EECS 442 and EECS 504.)"
+EECS 443,Senior Thesis,['3'],https://atlas.ai.umich.edu/course/EECS%20443/,Prerequisite: Senior standing. (3 credits)
+EECS 444,Analysis of Societal Networks,['4'],https://atlas.ai.umich.edu/course/EECS%20444/.,Prerequisite: EECS 301 or MATH 425 or STATS 425. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) (Credit cannot be obtained for both EECS 444 and EECS 544.)
+EECS 445,Introduction to Machine Learning,[],https://atlas.ai.umich.edu/course/EECS%20445/,"Prerequisite: [(EECS 281 and (MATH 214 or 217 or 296 or 417 or 419, or ROB 101)); (C or better, No OP/F)]. Enrollment in one minor elective allowed for Computer Science Minors."
+EECS 448,Applied Machine Learning for Modeling Human Behavior,[],https://atlas.ai.umich.edu/course/EECS%20448/,"Enforced Prerequisite: EECS 281 and (MATH 214 or 217 or 296 or 417 or 419, or ROB 101); (C or better; No OP/F) or Graduate Standing in CSE"
+EECS 449,Conversational Artificial Intelligence,['4'],https://atlas.ai.umich.edu/course/EECS%20449/,"Prerequisite: EECS 281; (C or better, No OP/F). Advisory Prerequisite: EECS 485 or EECS 493. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 452,Digital Signal Processing Design Laboratory,['4'],https://atlas.ai.umich.edu/course/EECS%20452/,"Prerequisite: EECS 280, and (EECS 351 or EECS 455) or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 453,Principles of Machine Learning,['4'],https://atlas.ai.umich.edu/course/EECS%20453/,"Prerequisite: EECS 280 and (STATS 250 or STATS 280 or STATS 412 or STATS 426 or EECS 301 or IOE 265 or TO 301) and (EECS 351 or MATH 214 or 217 or 296 or 417 or 419 or ROB 101). (C or better, No OP/F). Minimum grade requirement of “C” for enforced prerequisites. (Credit Exclusions: No Credit to a student who has taken EECS 445 or 545 or 553). (4 credits)"
+EECS 455,Wireless Communications Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20455/,Prerequisite: EECS 216 and EECS 301 or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 456,Internet Foundations,['4'],https://atlas.ai.umich.edu/course/EECS%20456/,Prerequisite: EECS 300 or EECS 270 or graduate standing or permission of instructor. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 458 (BIOMEDE 458),Biomedical Instrumentation and Design,['4'],https://atlas.ai.umich.edu/course/EECS%20458/,Prerequisite: EECS 215 or EECS 314 or consent of instructor or graduate standing. (4 credits)
+EECS 460,Control Systems Analysis and Design,['4'],https://atlas.ai.umich.edu/course/EECS%20460/,Prerequisite: EECS 216 or graduate standing. (4 credits)
+EECS 461,Embedded Control Systems,[],https://atlas.ai.umich.edu/course/EECS%20461/,"Prerequisite: EECS 216 (C or better, No OP/F)"
+EECS 463,Power Systems Design and Operation,['4'],https://atlas.ai.umich.edu/course/EECS%20463/,Prerequisite: ((Phys 240 or 260) and EECS 215 and EECS 216) or graduate standing. (4 credits)
+EECS 464 (ROB 464),Hands-on Robotics,['4'],https://atlas.ai.umich.edu/course/EECS%20464/,Prerequisite: EECS 216 or EECS 281 or ME 360 or CEE 212 or IOE 333 or Graduate Standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) 
+EECS 465 (ROB 422),Introduction to Algorithmic Robotics,[],https://atlas.ai.umich.edu/course/EECS%20465/,Prerequisite: EECS 280 and MATH 215 and (junior standing or senior standing) or graduate standing). Minimum grade requirement of “C” for enforced prerequisites. Advisory Prerequisite: EECS 281 and (MATH 214 or MATH 217 or MATH 417 or MATH 419 or ROB 101) or permission of instructor.
+EECS 467,Autonomous Robotics Design Experience,['4'],https://atlas.ai.umich.edu/course/EECS%20467/,"Prerequisite: EECS 281 and (MATH 214 or 217 or 296 or 417 or 419, or ROB 101) and (EECS 367 or EECS 373); (No OP/F). Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 470,Computer Architecture,['4'],https://atlas.ai.umich.edu/course/EECS%20470/,Prerequisite: EECS 370 and EECS 270 or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 471,Applied Parallel Programming with GPUs,[],https://atlas.ai.umich.edu/course/EECS%20471/,"Prerequisite: EECS 281 and EECS 370; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."
+EECS 473,Advanced Embedded Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20473/,Prerequisite: EECS 373 and EECS 215 or EECS 281 or graduate standing. (4 credits)
+EECS 475,Introduction to Cryptography,[],https://atlas.ai.umich.edu/course/EECS%20475/,"Prerequisite: EECS 376; (C or better, No OP/F) or Graduate Standing in CSE"
+EECS 476,Data Mining,[],https://atlas.ai.umich.edu/course/EECS%20476/,"Prerequisite: [EECS 281 and (MATH 214 or MATH 217 or MATH 296 or MATH 417 or MATH 419, or ROB 101) (minimum grade of C)] or [EECS 403 (minimum grade of B)] or graduate standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."
+EECS 477,Introduction to Algorithms,[],https://atlas.ai.umich.edu/course/EECS%20477/,"Prerequisite: EECS 281 and EECS 376; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors. Minimum grade requirement of “C” for enforced prerequisites. (Credit Exclusions: No credit to a student who has taken EECS 586"
+EECS 478,Logic Circuit Synthesis and Optimization,['4'],https://atlas.ai.umich.edu/course/EECS%20478/,"Prerequisite: EECS 203, EECS 270, and senior standing or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+EECS 480,Social Computing Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20480/,Prerequisite: EECS 485 or 493. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) 
+EECS 481,Software Engineering,[],https://atlas.ai.umich.edu/course/EECS%20481/,"Prerequisite: EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors"
+EECS 482,Introduction to Operating Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20482/,Prerequisite: EECS 281 and EECS 370 or graduate standing in CSE. Minimum grade requirement of “C” for enforced prerequisites. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits)
+EECS 483,Compiler Construction,['4'],https://atlas.ai.umich.edu/course/EECS%20483/,Prerequisite:  EECS 281 and EECS 370 or graduate standing in CSE. Minimum grade requirement of “C” for enforced prerequisites. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits)
+EECS 484,Database Management Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20484/,Prerequisite: EECS 281 (minimum grade of “C”) or EECS 403 (minimum grade of “B”) or graduate standing in CSE.  Enrollment in one minor elective allowed for Computer Science Minors. (4 credits)
+EECS 485,Web Systems,[],https://atlas.ai.umich.edu/course/EECS%20485/,Prerequisite: EECS 281 or graduate standing in CSE. Minimum grade requirement of “C”  for enforced prerequisites. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits
+EECS 486,Informational Retrieval and Web Search,['4'],https://atlas.ai.umich.edu/course/EECS%20486/,"Prerequisite: EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors. Minimum grade requirement of “C” for enforced prerequisite. (4 credits)"
+EECS 487,Introduction to Natural Language Processing,['4'],https://atlas.ai.umich.edu/course/EECS%20487/,"Prerequisite: EECS 281; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors. Minimum grade requirement of “C” for enforced prerequisite. (Credit Exclusion: No credit to a student who has taken EECS 595.) (4 credits)"
+EECS 489,Computer Networks,[],https://atlas.ai.umich.edu/course/EECS%20489/,Prerequisite: EECS 281 and EECS 370 or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors.
+EECS 490,Programming Languages,['4'],https://atlas.ai.umich.edu/course/EECS%20490/,Prerequisite: EECS 281 or graduate standing in CSE. Minimum grade requirement of “C” for enforced prerequisite. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits)
+EECS 491,Introduction to Distributed Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20491/,"Enforced Prerequisite: EECS 281; (C or better, No OP/F) or graduate standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors. Minimum grade requirement of “C” for enforced prerequisite. (4 credits)"
+EECS 492,Introduction to Artificial Intelligence,['4'],https://atlas.ai.umich.edu/course/EECS%20492/,Prerequisite: EECS 281. Minimum grade requirement of “C” for enforced prerequisite. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits) (Not for graduate credit) 
+EECS 493,User Interface Development,['4'],https://atlas.ai.umich.edu/course/EECS%20493/,Prerequisite: EECS 281 or graduate standing in CSE. Minimum grade requirement of “C” for enforced prerequisite. Enrollment in one minor elective allowed for Computer Science Minors. (4 credits)
+EECS 494,Computer Game Design and Development,['4'],https://atlas.ai.umich.edu/course/EECS%20494/,Prerequisite: EECS 281. Minimum grade requirement of “C” for enforced prerequisite. (4 credits)
+EECS 495,Accessible Computing,['4'],https://atlas.ai.umich.edu/course/EECS%20495/,"Prerequisite: EECS 281 (C or better, No OP/F). Minimum grade requirement of “C” for enforced prerequisite. (4 credits)"
+EECS 496,Major Design Experience Professionalism,['2'],https://atlas.ai.umich.edu/course/EECS%20496/,Prerequisite: Senior standing. (2 credits) 
+EECS 497,Human-Centered Software and Design and Development,['4'],https://atlas.ai.umich.edu/course/EECS%20497/,Prerequisite: EECS 281. Minimum grade requirement of “C” for enforced prerequisites. (4 credits)
+EECS 498,Special Topics,[],https://atlas.ai.umich.edu/course/EECS%20498/,Prerequisite: Permission of instructor. (1-4 credits)
+EECS 499,Directed Study,[],https://atlas.ai.umich.edu/course/EECS%20499/,Prerequisite: Senior standing in EECS. (1-4 credits)
+ECE 500,Tutorial Lecture Series in System Science,[],https://atlas.ai.umich.edu/course/ECE%20500/,Prerequisite: Graduate standing; mandatory satisfactory/unsatisfactory. (1 credit)
+ECE 501,Probability and Random Processes,['4'],https://atlas.ai.umich.edu/course/ECE%20501/,Prerequisite: EECS 301 or graduate standing. (4 credits)
+ECE 502,Stochastic Processes,['3'],https://atlas.ai.umich.edu/course/ECE%20502/,Prerequisite: ECE 501. (3 credits)
+ECE 503,Introduction to Numerical Electromagnetics,['3'],https://atlas.ai.umich.edu/course/EECS%20503/,Prerequisite: EECS 330. (3 credits)
+EECS 504,Foundations of Computer Vision,[],https://atlas.ai.umich.edu/course/EECS%20504/,"Prerequisite: Undergraduate Calculus, Linear Algebra, Probability and Programming. (Credit Exclusions: No credit to a student who has taken EECS 442 or EECS 504.)"
+ECE 505,Computational Data Science and Machine Learning,[],https://atlas.ai.umich.edu/course/ECE%20505/,Prerequisite: EECS 301 or MATH 425 or STATS 250 or STATS 412 or STATS 426 or IOE 265 or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (Credit Exclusions: No credit to a student who has taken ECE 551 or ECE 505.)
+ECE 506,Design of Power Electronics,['3'],https://atlas.ai.umich.edu/course/ECE%20506/,Prerequisite: EECS 418 or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (3 credits)
+EECS 507,Introduction to Embedded System Research,[],https://atlas.ai.umich.edu/course/EECS%20507/,Advisory Prerequisites: A prior >= 400-level course on computer system or sensor design and analysis. Sufficient time to read and understand two 30-page research papers per week. (3-4 credits)
+ECE 508,,['3'],https://atlas.ai.umich.edu/course/ECE%20508/,Prerequisite: EECS 418 or graduate standing. Minimum grade requirement of “C” for enforced prerequsites. (3 credits)
+ECE 509,BioMEMS,['3'],https://atlas.ai.umich.edu/course/ECE%20509/,Prerequisite: None. (3 credits)
+ECE 511,Integrated Analog/Digital Interface Circuits,['4'],https://atlas.ai.umich.edu/course/ECE%20511/,Prerequisite: EECS 413 or permission of instructor. (4 credits)
+ECE 512,Amorphous and Microcrystalline Semiconductor Thin Film Devices,['3'],https://atlas.ai.umich.edu/course/ECE%20512/,Prerequisite: EECS 421 and/or permission of instructor. (3 credits)
+ECE 513,Flat Panel Displays,['3'],https://atlas.ai.umich.edu/course/ECE%20513/,"Prerequisite: EECS 423, ECE 512 and/or permission of instructor. (3 credits)"
+ECE 514,Advanced MEMS Devices and Technologies,['4'],https://atlas.ai.umich.edu/course/ECE%20514/,Prerequisite: EECS 414. (4 credits)
+ECE 515,Integrated Microsystems,['4'],https://atlas.ai.umich.edu/course/ECE%20515/,Prerequisite: EECS 414. (4 credits)
+ECE 516 (BIOMEDE 516),Medical Imaging Systems,['3'],https://atlas.ai.umich.edu/course/ECE%20516/,Prerequisite: EECS 351. (3 credits)
+ECE 517 (NERS 578),Low Temperature Plasmas,['3'],https://atlas.ai.umich.edu/course/ECE%20517/,Advisory Prerequisite: (Physics 240 or Physics 260) and (Math 216 or Math 286 or Math 396). Enforced Prerequisite: None. (3 credits)
+ECE 518 (SPACE 595),Magnetosphere and Solar Wind,['3'],https://atlas.ai.umich.edu/course/ECE%20518/,Prerequisite: Graduate standing. (3 credits)
+ECE 519 (NERS 575),Plasma Generation and Diagnostics Laboratory,['4'],https://atlas.ai.umich.edu/course/ECE%20519/,Prerequisite: Preceded or accompanied by a course covering electromagnetism. (4 credits)
+ECE 520,Solid State Physics,['4'],https://atlas.ai.umich.edu/course/ECE%20520/,Prerequisite: PHYSICS 453 or graduate standing. (4 credits)
+ECE 521,Solid State Devices,['3'],https://atlas.ai.umich.edu/course/ECE%20521/,Prerequisite: EECS 421. (3 credits)
+EECS 522,Analog Integrated Circuits,['4'],https://atlas.ai.umich.edu/course/EECS%20522/,Prerequisite: EECS 413. (4 credits)
+EECS 523,Digital Integrated Technology,['4'],https://atlas.ai.umich.edu/course/EECS%20523/,Prerequisite: (EECS 423 or EECS 425) and EECS 311 and EECS 320. (4 credits)
+ECE 524 (APPPHYS 524),Organic Electronic Devices and Applications,['3'],https://atlas.ai.umich.edu/course/ECE%20524/,Prerequisite: Permission of instructor or graduate standing. (3 credits)
+ECE 525,Advanced Solid State Microwave Circuits,['3'],https://atlas.ai.umich.edu/course/ECE%20525/,Prerequisite: EECS 411 and (EECS 421 or ECE 521). (3 credits)
+ECE 526,Plasmonics,['3'],https://atlas.ai.umich.edu/course/ECE%20526/,"Advisory Prerequisite: EECS 230, PHYSICS 240, graduated standing or permission of instructor. (3 credits) "
+ECE 527,Power Semiconductor Devices,['4'],https://atlas.ai.umich.edu/course/ECE%20527/,Prerequisite: EECS 320 or EECS 421 or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (4 credits) 
+ECE 528,Principles of Microelectronics Process Technology,['3'],https://atlas.ai.umich.edu/course/ECE%20528/,Prerequisite: EECS 421 and EECS 423. (3 credits)
+ECE 529,Semiconductor Lasers and LEDs,['3'],https://atlas.ai.umich.edu/course/ECE%20529/,Prerequisite: EECS 429. (3 credits)
+ECE 530 (APPPHYS 530),Electromagnetic Theory I,['3'],https://atlas.ai.umich.edu/course/ECE%20530/,Prerequisite: EECS 330 or Physics 438. (3 credits)
+ECE 531,Antenna Theory and Design,['3'],https://atlas.ai.umich.edu/course/ECE%20531/,Prerequisite: EECS 330. (3 credits)
+ECE 532 (CLIMATE 587) (SPACE 587),Microwave Remote Sensing I: Radiometry,['3'],https://atlas.ai.umich.edu/course/ECE%20532/,"Prerequisite: EECS 330, graduate standing. (3 credits)"
+ECE 533,Microwave Measurements Laboratory,['3'],https://atlas.ai.umich.edu/course/ECE%20533/,"Prerequisite: EECS 330, graduate Standing. (3 credits)"
+ECE 534,Analysis of Electric Power Distribution Systems and Loads,['3'],https://atlas.ai.umich.edu/course/ECE%20534/,Advisory Prerequisite: EECS 463 or graduate standing. (3 credits)
+ECE 535,Power System Dynamics and Control,['3'],https://atlas.ai.umich.edu/course/ECE%20535/,"Advisory Prerequisite: EECS 463, or permission of instructor or graduate standing. (3 credits)"
+ECE 536,Power System Markets & Optimization,['3'],https://atlas.ai.umich.edu/course/ECE%20536/,"Prerequisite: EECS 463, or permission of instructor or graduate standing. Minimum grade requirement of “C” for enforced prerequisites. (3 credits)"
+ECE 537 (APPPHYS 537),Classical Optics,['3'],https://atlas.ai.umich.edu/course/ECE%20537/,Prerequisite: EECS 330 and EECS 334. (3 credits)
+ECE 538 (APPPHYS 550) (PHYSICS 650),Optical Waves in Crystals,['3'],https://atlas.ai.umich.edu/course/ECE%20538/,Prerequisite: EECS 434. (3 credits)
+ECE 539 (APPPHYS 551) (PHYSICS 651),Lasers,['3'],https://atlas.ai.umich.edu/course/ECE%20539/,Prerequisite: ECE 537 and ECE 538 and Graduate Standing. (3 credits)
+ECE 540 (APPPHYS 540),Applied Quantum Mechanics I,['3'],https://atlas.ai.umich.edu/course/ECE%20540/,Prerequisite: Permission of instructor. (3 credits)
+ECE 541 (APPPHYS 541),Applied Quantum Mechanics II,['3'],https://atlas.ai.umich.edu/course/ECE%20541/,Prerequisite: EECS 540. (3 credits)
+EECS 542,Advanced Topics in Computer Vision,['3'],https://atlas.ai.umich.edu/course/EECS%20542/,Advisory Prerequisite: EECS 442 or EECS 504 or permission of instructor. (3 credits)
+CSE 543 (ROB 543),Ethics for AI and Robotics,[],https://atlas.ai.umich.edu/course/CSE%20543/,Prerequisite: Graduate standing
+ECE 544,Analysis of Societal Networks,[],https://atlas.ai.umich.edu/course/ECE%20544/,Advisory Prerequisite: EECS 301 or MATH 425 or STATS 425 or Graduate standing. Minimum grade requirement of “C” for advised prerequisite. (Credit Exclusions: No credit to a student who has taken EECS 444 and EECS 544
+EECS 545,Machine Learning (CSE),[],https://atlas.ai.umich.edu/course/EECS%20545/,"Advisory Prerequisite: Coursework in probability, linear algebra, and programming. (Credit Exclusions: No credit to a student who has taken EECS 445, 453, or 553"
+ECE 546 (APPPHYS 546),Ultrafast Optics,['3'],https://atlas.ai.umich.edu/course/EECS%20546/,Prerequisite: EECS 537. (3 credits)
+CSE 547 (SI 652),Incentives and Strategic Behavior in Computational Systems,['3'],https://atlas.ai.umich.edu/course/CSE%20547/,Prerequisite: None. (3 credits)
+CSE 548 (SI 649),Information Visualizaiton,['3'],https://atlas.ai.umich.edu/course/CSE%20548/,"Advisory Prerequisite: SI 582, 618 and 622 are strongly encouraged. EECS 493 or graduate standing and (C or better) or equivalent. Prerequisite: {[SI 506; (C- or better) or SI 506 Waiver] and [Co-requisite: SI 507; (C- or better) or SI Waiver]} or SI 508; (C- or better); or Graduate Standing. Minimum grade requirement of “C” for enforced prerequisite. (3 credits) "
+CSE 549 (SI 650),Information Retrieval,['3'],https://atlas.ai.umich.edu/course/CSE%20549/,Prerequisite: SI 507 or SI 507 Waiver or Graduate Standing. (3 credits) 
+ECE 550,Information Theory,['3'],https://atlas.ai.umich.edu/course/ECE%20550/,Prerequisite: ECE 501. (3 credits)
+ECE 551,"Matrix Methods for Signal Processing, Data Analysis and Machine Learning",['4'],https://atlas.ai.umich.edu/course/ECE%20551/,Prerequisite: EECS 351 or Graduate Standing. Minimum grade requirement of “C” for enforced prerequisites. (Credit Exclusions: No credit to a student who has taken ECE 505 or ECE 551.) (4 credits)
+ECE 552 (APPPHYS 552),Fiber Optics: Internet to Biomedical Applications,['3'],https://atlas.ai.umich.edu/course/ECE%20552/,"Prerequisite: Any one of EECS 334, EECS 429, EECS 434, ECE 529, ECE 537, ECE 538, ECE 539 or permission of instructor. (3 credits) "
+EECS 553,Machine Learning (ECE),['3'],https://atlas.ai.umich.edu/course/EECS%20553/,Advisory Prerequisite: Graduate coursework in probability and linear algebra. (3 credits) (Students may not receive credit for both EECS 553 and EECS 545)
+ECE 554,Introduction to Digital Communication and Coding,['3'],https://atlas.ai.umich.edu/course/ECE%20554/,Prerequisite: EECS 216 and EECS 301. (3 credits)
+ECE 555,Digital Communication Theory,['3'],https://atlas.ai.umich.edu/course/ECE%20555/,"Prerequisite: ECE 501, ECE 554. (3 credits)"
+ECE 556,Image Processing,['3'],https://atlas.ai.umich.edu/course/ECE%20556/,Advisory Prerequisite: ECE 501; Corequisite: EECS 453 or ECE 551. (3 credits)
+ECE 557,Communication Networks,['3'],https://atlas.ai.umich.edu/course/ECE%20557/,"Prerequisite: Graduate standing, preceded by EECS 431 or accompanied by ECE 501. (3 credits)"
+ECE 558,Stochastic Control,['3'],https://atlas.ai.umich.edu/course/ECE%20558/,"Prerequisite: ECE 501, ECE 560. (3 credits)"
+ECE 559,Optimization Methods in Signal Processing and Machine Learning,['3'],https://atlas.ai.umich.edu/course/ECE%20559/,Advisory Prerequisite: ECE 551 or ECE 501. (3 credits)
+ECE 560 (AEROSP 550) (CEE 571) (MECHENG 564),Linear Systems Theory,['4'],https://atlas.ai.umich.edu/course/ECE%20560/,Prerequisite: Graduate standing. (4 credits)
+ECE 561 (MECHENG 561),Design of Digital Control Systems,['3'],https://atlas.ai.umich.edu/course/ECE%20561/,Prerequisite: EECS 460 or MECHENG 461. (3 credits) 
+ECE 562 (AEROSP 551),Nonlinear Systems and Control,['3'],https://atlas.ai.umich.edu/course/ECE%20562/,Prerequisite: Graduate standing. (3 credits)
+ECE 563,"Hybrid Systems, Analysis, and Control",['3'],https://atlas.ai.umich.edu/course/ECE%20563/,Advisory Prerequisite: (EECS 562) or (ECE 560 and permission of instructor.) (3 credits)
+ECE 564,"Estimation, Filtering, and Detection",['3'],https://atlas.ai.umich.edu/course/ECE%20564/,Prerequisite: ECE 501. (3 credits)
+ECE 565,Linear Feedback Control Systems,['3'],https://atlas.ai.umich.edu/course/ECE%20565/,Prerequisite: EECS 460 or AEROSP 348 or MECHENG 461 and AEROSP 550 (ECE 560). (3 credits)
+ECE 566,Discrete Event Systems,['3'],https://atlas.ai.umich.edu/course/ECE%20566/,Prerequisite: Graduate standing (3 credits)
+EECS 567 (MFG 567) (MECHENG 567) (ROB 510),Robot Kinematics and Dynamics,['3'],https://atlas.ai.umich.edu/course/EECS%20567/,Prerequisite: Graduate standing or permission of instructor (3 credits)
+EECS 568 (NAVARCH 568) (ROB 530),Mobile Robotics: Methods and Algorithms,['4'],https://atlas.ai.umich.edu/course/EECS%20568/,Prerequisite: Graduate Standing or permission of instructor. (4 credits)
+ECE 569 (MFG 564),Production Systems Engineering,['3'],https://atlas.ai.umich.edu/course/ECE%20569/,Prerequisite: None. (3 credits)
+EECS 570,Parallel Computer Architecture,['4'],https://atlas.ai.umich.edu/course/EECS%20570/,Prerequisite: EECS 470. (4 credits)
+EECS 571,Principles of Real-Time Computing,['4'],https://atlas.ai.umich.edu/course/EECS%20571/,"Prerequisite: EECS 470, EECS 482 or permission of instructor. (4 credits)"
+CSE 572,Randomness and Computation,['4'],https://atlas.ai.umich.edu/course/CSE%20572/,"Prerequisite: EECS 376 (B+ or better, No OP/F); or Graduate Standing. Advisory Prerequisite: Coursework in probability and algorithms. (4 credits)"
+EECS 573,Microarchitecture,['3'],https://atlas.ai.umich.edu/course/EECS%20573/,Prerequisite: EECS 470 or permission of instructor. (3 credits)
+CSE 574,Computational Complexity,['4'],https://atlas.ai.umich.edu/course/CSE%20574/,"Prerequisite: EECS 376 (B+ or better, No OP/F); or Graduate Standing. Advised Prerequisite: Coursework in probability and algorithms. (4 credits)"
+CSE 575,Advanced Cryptography,['4'],https://atlas.ai.umich.edu/course/CSE%20575/,"Prerequisite: EECS 376 (B+ or better, No OP/F); or Graduate Standing. (4 credits)"
+CSE 576,Advanced Data Mining,['4'],https://atlas.ai.umich.edu/course/CSE%20576/,"Advisory Prerequisite: EECS 281 and (MATH 214 or 217 or 296 or 417 or 419 or ROB 101) and (STATS 412 or MATH 425), or graduate standing. (4 credits)"
+EECS 578,Correct Operation for Processors and Embedded Systems,['4'],https://atlas.ai.umich.edu/course/EECS%20578/,Prerequisite: EECS 470 or graduate standing or permission of instructor. Minimum grade requirement of “C” for enforced prerequisite. (4 credits)
+EECS 579,Digital System Testing,['4'],https://atlas.ai.umich.edu/course/EECS%20579/,Prerequisite: Graduate standing. (4 credits)
+CSE 582,Advanced Operating Systems,['4'],https://atlas.ai.umich.edu/course/CSE%20582/,Prerequisite: EECS 482. (4 credits)
+CSE 583,Advanced Compilers,['4'],https://atlas.ai.umich.edu/course/CSE%20583/,Prerequisite: EECS 281 and 370 (EECS 483 is also recommended) (4 credits)
+CSE 584,Advanced Database Systems,['4'],https://atlas.ai.umich.edu/course/CSE%20584/,Prerequisite: EECS 484 or permission of instructor. (4 credits)
+CSE 585,Advanced Scalable Systems,['4'],https://atlas.ai.umich.edu/course/CSE%20585/,"Advisory Prerequisite: Students are expected to have systems programming skills and must have taken at least one undergraduate-level systems-related course. Enforced Prerequisite: EECS 482 or 483 or 484 or 485 or 489 or 491; (C or better, No OP/F) or Graduate Standing in CSE. Minimum grade requirement of “C” for enforced prerequisite. (4 credits)"
+CSE 586,Design and Analysis of Algorithms,[],https://atlas.ai.umich.edu/course/CSE%20586/,"Prerequisite: EECS 376 (B+ or better, No OP/F); or Graduate Standing"
+CSE 587,Parallel Computing,['4'],https://atlas.ai.umich.edu/course/CSE%20587/,Prerequisite: EECS 281 and graduate standing. (4 credits)
+CSE 588,Computer and Network Security,['4'],https://atlas.ai.umich.edu/course/CSE%20588/,Prerequisite: EECS 482 or EECS 489 or graduate standing. (4 credits)
+CSE 589,Advanced Computer Networks,['4'],https://atlas.ai.umich.edu/course/CSE%20589/,"Prerequisite: EECS 489. (4 credits)Advanced topics and research issues in computer networks. Topics include routing protocols, multicast delivery, congestion control, quality of service support, network security, pricing and accounting and wireless access and mobile networking. Emphasis is placed on performance trade-offs in protocol and architecture designs. Readings assigned from research publications. A course project allows in-depth exploration of topics of interest. "
+CSE 590,Advanced Programming Languages,['4'],https://atlas.ai.umich.edu/course/CSE%20590/,Prerequisite: EECS 281 or equivalent. (4 credits)
+CSE 591,Distributed Systems,['4'],https://atlas.ai.umich.edu/course/CSE%20591/,Prerequisite: EECS 482 and graduate standing. (4 credits)
+CSE 592,Foundations of Artificial Intelligence,['4'],https://atlas.ai.umich.edu/course/CSE%20592/,Advisory Prerequisite: Graduate standing. (4 credits) (Credit Exclusions: No credit to a student who has taken both EECS 492 and EECS 592.)
+CSE 593,Human-Computer Interaction,['3'],https://atlas.ai.umich.edu/course/CSE%20593/,Prerequisite: Graduate standing. (3 credits)
+CSE 595 (LING 541) (SI 561),Natural Language Processing,['3'],https://atlas.ai.umich.edu/course/CSE%20595/,Prerequisite: Senior Standing. (3 credits)
+ECE 596,Master of Engineering Team Project,[],https://atlas.ai.umich.edu/course/ECE%20596/,Prerequisite: Enrollment in the Masters of Engineering program in ECE. (1-6 credits)
+CSE 597 (SI 565) (LING 702),Language and Information,['3'],https://atlas.ai.umich.edu/course/CSE%20597/,Advisory Prerequisite: Background in computation and probability. (3 credits)
+CSE 598,Special Topics,[],https://atlas.ai.umich.edu/course/CSE%20598/,Prerequisite: Permission of instructor or counselor. (1-4 credits)
+ECE 598,Special Topics,[],https://atlas.ai.umich.edu/course/ECE%20598/,Prerequisite: Permission of instructor or counselor. (1-4 credits)
+CSE 599,Directed Study,[],https://atlas.ai.umich.edu/course/CSE%20599/,Prerequisite: Prior arrangement with instructor; mandatory satisfactory/unsatisfactory. (1-4 credits)
+ECE 599,Directed Study,[],https://atlas.ai.umich.edu/course/ECE%20599/,Prerequisite: Prior arrangement with instructor. (1-4 credits)
+ECE 600 (IOE 600),Function Space Methods in System Theory,['3'],https://atlas.ai.umich.edu/course/ECE%20600/,Prerequisite: (ECE 551 or MATH 419) or MATH 451. (3 credits)
+CSE 601,Introduction to CSE Graduate Research,[],https://atlas.ai.umich.edu/course/CSE%20601/,Prerequisite: Graduate Standing. (1 credit)
+ECE 602,Reinforcement Learning Theory,[],https://atlas.ai.umich.edu/course/ECE%20602/,Prerequisite: None. Advisory Prerequisite: ECE 501
+ECE 605,Data Science and Machine Learning Design Laboratory,['4'],https://atlas.ai.umich.edu/course/ECE%20605/,Advisory Prerequisite: ECE 505 or ECE 551 or graduate equivalent. (4 credits)
+ECE 620,Electronic and Optical Properties of Semiconductors,['4'],https://atlas.ai.umich.edu/course/ECE%20620/,Prerequisite: ECE 520 or ECE 540. (4 credits)
+EECS 627,VLSI Design II,['4'],https://atlas.ai.umich.edu/course/EECS%20627/,Prerequisite: EECS 427. (4 credits)
+EECS 628,Advanced High Performance VLSI Design,[],https://atlas.ai.umich.edu/course/EECS%20628/,Prerequisite: EECS 627 or equivalent. (3-4 credits)
+ECE 631,Electromagnetic Scattering,['3'],https://atlas.ai.umich.edu/course/ECE%20631/,Prerequisite: ECE 530 and graduate standing. (3 credits)
+ECE 633,Numerical Methods in Electromagnetics,['3'],https://atlas.ai.umich.edu/course/ECE%20633/,Prerequisite: ECE 530. (3 credits) 
+ECE 634 (APPPHYS 611) (Physics 611),Nonlinear Optics,['3'],https://atlas.ai.umich.edu/course/ECE%20634/,"Prerequisite: ECE 530 or ECE 537 or ECE 538, Graduate Standing. (3 credits)"
+ECE 638 (PHYSICS 542),Quantum Optics,['3'],https://atlas.ai.umich.edu/course/ECE%20638/,"Prerequisite: PHYSICS, Quantum mechanics, electrodynamics, atomic physics. (3 credits)"
+CSE 643 (PSYCH 643),Theory of Neural Computation,[],https://atlas.ai.umich.edu/course/CSE%20643/,Prerequisite: Graduate standing and permission of instructor. (2-4 credits)
+CSE 644 (PSYCH 644),Computational Modeling of Cognition,[],https://atlas.ai.umich.edu/course/CSE%20644/,Prerequisite: Graduate standing. (2-4 credits)
+ECE 650,Channel Coding Theory,['3'],https://atlas.ai.umich.edu/course/ECE%20650/,Prerequisite: ECE 501 and MATH 419. (3 credits)
+ECE 659,Adaptive Signal Processing,['3'],https://atlas.ai.umich.edu/course/ECE%20659/,Prerequisite: ECE 559 or ECE 564. (3 credits)
+ECE 662 (AEROSP 672) (MECHENG 662),Advanced Nonlinear Control,['3'],https://atlas.ai.umich.edu/course/ECE%20662/,Prerequisite: ECE 562/AEROSP 551 or MECHENG 648. (3 credits)
+CSE 670,Special Topics in Computer Architecture,['3'],https://atlas.ai.umich.edu/course/CSE%20670/,"Prerequisite: CSE 570, graduate standing, and permission of instructor. (3 credits)"
+CSE 692,Advanced Artificial Intelligence,['4'],https://atlas.ai.umich.edu/course/CSE%20692/,"Prerequisites: CSE 592 or EECS 492 (C or better, No OP/F). Minimum grade requirement of “C” for enforced prerequisites. (4 credits)"
+CSE 695 (PSYCH 740),Neural Models and Psychological Processes,['3'],https://atlas.ai.umich.edu/course/CSE%20695/,Prerequisite: Graduate standing and permission of instructor. (3 credits)
+CSE 698,Master’s Thesis,[],https://atlas.ai.umich.edu/course/CSE%20698/,"Prerequisite: Election of a CSE, Master’s Thesis Option. May be elected for a maximum of 6 credit hours. (1-6 credits)"
+ECE 698,Master’s Thesis,[],https://atlas.ai.umich.edu/course/ECE%20698/,Prerequisite: Election of an ECE master’s thesis option. (1-6 credits)
+CSE 699,Research Work in CSE,[],https://atlas.ai.umich.edu/course/CSE%20699/,"Prerequisite: Graduate standing, permission of instructor. (1-6 credits)"
+ECE 699,Research Work in ECE,[],https://atlas.ai.umich.edu/course/ECE%20699/,Prerequisites: None. (1-6 credits)
+ECE 700,Special Topics in System Theory,[],https://atlas.ai.umich.edu/course/ECE%20700/,Prerequisite: Permission of instructor (to be arranged). (1-16 credits)
+ECE 720,"Special Topics in Solid-State Devices, Integrated Circuits, and Physical Electronics",[],https://atlas.ai.umich.edu/course/ECE%20720/,Prerequisite: Permission of instructor. (1-4 credits)
+ECE 730,Special Topics in Electromagnetics,[],https://atlas.ai.umich.edu/course/ECE%20730/,Prerequisite: Permission of instructor. (1-4 credits)
+ECE 735,Special Topics in the Optical Sciences,[],https://atlas.ai.umich.edu/course/ECE%20735/,Prerequisite: Graduate standing and permission of instructor. (1-4 credits)
+ECE 750,Special Topics in Communication and Information Theory,[],https://atlas.ai.umich.edu/course/ECE%20750/,Prerequisite: Permission of instructor. (1-16 credits)
+ECE 755,Special Topics in Signal Processing,[],https://atlas.ai.umich.edu/course/ECE%20755/,Prerequisite: Permission of instructor. (1-4 credits)
+ECE 760,Special Topics in Control Theory,[],https://atlas.ai.umich.edu/course/ECE%20760/,Prerequisite: Permission of instructor. 
+ECE 765,Special Topics in Stochastic Systems and Control,['3'],https://atlas.ai.umich.edu/course/ECE%20765/,Prerequisite: Permission of instructor. (3 credits)
+ECE 820,Seminar in Solid-State Electronics,[],https://atlas.ai.umich.edu/course/ECE%20820/,Prerequisite: Graduate standing and permission of instructor. (1 credit)
+CSE 990,Dissertation/Pre-Candidate,[],https://atlas.ai.umich.edu/course/CSE%20990/,Prerequisite: Election for dissertation work by doctoral students not yet admitted as a Candidate. (1-8 credits)
+ECE 990,Dissertation/Pre-Candidate,[],https://atlas.ai.umich.edu/course/ECE%20990/,Prerequisites: None. (1-8 credits)
+CSE 995,Dissertation/Candidate,[],https://atlas.ai.umich.edu/course/CSE%20995/,Prerequisite: Graduate School authorization for admission as a doctoral candidate. (4-8 credits)
+ECE 995,Dissertation/Candidate,[],https://atlas.ai.umich.edu/course/ECE%20995/,Prerequisites: None. (4-8 credits)
