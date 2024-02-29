@@ -18,6 +18,7 @@ A [Jupyter Notebook](./scrape.ipynb) file is also provided for running the codes
 4. [Web Scraping - Umich EECS](#web-scraping---umich-eecs)
 5. [Data Cleaning and Processing](#clean-and-store-information)
 
+
 ## Web requests
 
 Before diving into web scraping, it is important to understand HTTP fundamentals. The modern websites
@@ -41,16 +42,10 @@ An HTTP request is composed of three main parts:
 3. Location: specifies the resource we aim to retrieve. They are defined by URL (Uniform Resource Locator)
 4. Body Message: The data to be delivered during the requests that sends data. (POST, PUT, PATCH). Often in the form of JSON. 
 
-JSON, which stands for Javascrpt Object Notation, is data exchanging format used in web communications. It holds a collection of key value pairs, similar to dictionary in PyThon. See example below. 
-
-
 More information on [URL parameter](https://www.semrush.com/blog/url-parameters/#) and [file paths](https://www.codecademy.com/resources/docs/html/file-paths)
 
 ![example-request](https://miro.medium.com/v2/resize:fit:1400/1*_BylvKonkAYtmDygRJadHg.png)
 ![url](./image/urlstructure.png)
-
-The URL only accept numerical characters and the alphabet. Special characters have special meanings. Only a small list of special characters are allowed in URL. For more information, you can see it [here](https://www.freecodecamp.org/news/url-encoded-characters-reference/)
-
 
 \*In web scraping, GET requests are predominantly used as we aim to retrieve documents. POST requests are also common when interacting with web page elements like forms, search bars, or pagination. HEAD requests can be used for optimization, allowing scrapers to request meta information and then decide whether downloading the entire page is worthwhile.
 
@@ -74,6 +69,7 @@ The server responds with an HTTP response, which includes:
     - 404 Not Found: The requested resource/path is not found.
 2. Headers: provide metadata about the response.
 3. Content: the actual data of the page, such as HTML or JSON. It is this data that we will be parsing and collecting as we scrape the website.
+
 
 ![exchange](image/http-exchange.svg)
 
@@ -140,6 +136,7 @@ CSS comes into play in web scraping when dealing with CSS selectors. CSS selecto
 
 In summary, understanding HTML and CSS is fundamental to web scraping because they allow you to identify the structure and elements of a web page from which you want to extract data.
 
+
 ## Python Libraries/Module
 
 Now that we have covered the basic background needed for web scraping, let's actually see how we can implement them using Python to automate the data collecting process. Specifically, we will be using these libraries
@@ -151,7 +148,6 @@ Now that we have covered the basic background needed for web scraping, let's act
 **re**: Python's regular expression module.
 
 <a name="scraping"></a>
-
 ## Web Scraping - Umich EECS
 
 Now lets use Python to do some simple web scraping on Umich eecs course page https://bulletin.engin.umich.edu/courses/eecs/
