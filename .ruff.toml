@@ -1,0 +1,27 @@
+extend-include = ["*.ipynb"]
+
+# Same as Black.
+line-length = 96
+indent-width = 4
+
+[lint]
+select = [
+    # Pyflakes
+    "F",
+    # pycodestyle warnings
+    "W",
+    # pycodestyle errors
+    "E",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # flake8-builtins
+    "A",
+    # flake8-raise
+    "RSE",
+    # pandas-vet
+    "PD"
+]
+
+ignore = ["PD901"]
