@@ -247,9 +247,9 @@ link = []
 
 for p in p_tags:
     strong, em, a = p.find('strong'), p.find('em'),  p.find('a')
-    if strong is not None: course.append(strong.getText())
-    if em is not None: prereq.append(em.getText())
-    if a is not None: link.append(a['href']) # Get the href attribute, not literal text
+    if strong: course.append(strong.getText())
+    if em: prereq.append(em.getText())
+    if a: link.append(a['href']) # Get the href attribute, not literal text
 
 print(course)
 print(prereq)
